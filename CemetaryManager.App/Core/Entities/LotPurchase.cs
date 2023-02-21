@@ -1,10 +1,12 @@
 ﻿using System;
 
-namespace CemetaryManager.Desktop.Core.Entities
+namespace CemetaryManager.App.Core.Entities
 {
     public class LotPurchase
     {
         public int Id { get; set; }
+        public int LotId { get; set; }
+        public Lot LotPurchased { get; set; } = new Lot();
         public DateTime Purchased { get; set; }
         public int Price { get; set; }
         public int PerpetualCare { get; set; }

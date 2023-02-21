@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace CemetaryManager.Desktop.Core.Entities
+namespace CemetaryManager.App.Core.Entities
 {
     public class Burial
     {
         public int Id { get; set; }
-        public int LotId { get; set; }
+        public int GraveSiteId { get; set; }
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
         public DateTime? Born { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CemetaryManager.Desktop.Core.Entities
+namespace CemetaryManager.App.Core.Entities
 {
     public class Lot
     {
@@ -12,6 +12,9 @@ namespace CemetaryManager.Desktop.Core.Entities
         public string Notes { get; set; } = string.Empty;
         public int LotSize { get; set; }
         public string LotOrientation { get; set; } = string.Empty;
-        public List<LotPurchase> LotPurchases { get; set; } = new List<LotPurchase>();
+
+        public DateTime Purchased { get; set; }
+        public int? PurchasePrice { get; set; }
+        public int? PerpetualCareCost { get; set; }
     }
 }
