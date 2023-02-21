@@ -9,20 +9,20 @@ using System.Threading.Tasks;
 
 namespace CemeteryManager.App.Infrastructure.Data
 {
-    public class namespace CemeteryManager.App.DbContext : DbContext
+    public class CemeteryManagerAppDbContext : DbContext
     {
         public DbSet<Lot> Lots { get; set; }
         public DbSet<LotOwner> LotOwners { get; set; }
         public DbSet<LotPurchase> LotPurchases { get; set; }
 
-        public namespace CemeteryManager.App.DbContext(DbContextOptions<namespace CemeteryManager.App.DbContext> options) : base(options)
+        public CemeteryManagerAppDbContext(DbContextOptions<CemeteryManagerAppDbContext> options) : base(options)
         {
 
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(namespace CemeteryManager.App.DbContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CemeteryManagerAppDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
         }
 
