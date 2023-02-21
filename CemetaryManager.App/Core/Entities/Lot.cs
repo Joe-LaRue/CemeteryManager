@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CemetaryManager.App.Core.Entities
+namespace CemeteryManager.App.Core.Entities
 {
     public class Lot
     {

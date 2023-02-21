@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CemetaryManager.App.Core.Entities
+namespace CemeteryManager.App.Core.Entities
 {
     public class Burial
     {

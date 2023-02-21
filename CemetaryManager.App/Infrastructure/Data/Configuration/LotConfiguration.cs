@@ -1,4 +1,4 @@
-﻿using CemetaryManager.App.Core.Entities;
+﻿using CemeteryManager.App.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CemetaryManager.App.Infrastructure.Data.Configuration
+namespace CemeteryManager.App.Infrastructure.Data.Configuration
 {
     public class LotConfiguration : IEntityTypeConfiguration<Lot>
     {

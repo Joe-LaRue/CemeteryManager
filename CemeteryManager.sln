@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CemetaryManager.Desktop", "CemetaryManager.Desktop\CemetaryManager.Desktop.csproj", "{66759CC7-031C-4D1A-B399-9772E44F7C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CemetaryManager.App", "CemetaryManager.App\CemetaryManager.App.csproj", "{25F41DE6-C391-4578-A42A-1DD6B73C50DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CemeteryManager.App", "CemetaryManager.App\CemeteryManager.App.csproj", "{25F41DE6-C391-4578-A42A-1DD6B73C50DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

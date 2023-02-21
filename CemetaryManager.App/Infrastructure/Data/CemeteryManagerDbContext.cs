@@ -1,4 +1,4 @@
-﻿using CemetaryManager.App.Core.Entities;
+﻿using CemeteryManager.App.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,22 +7,22 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CemetaryManager.App.Infrastructure.Data
+namespace CemeteryManager.App.Infrastructure.Data
 {
-    public class namespace CemetaryManager.App.DbContext : DbContext
+    public class namespace CemeteryManager.App.DbContext : DbContext
     {
         public DbSet<Lot> Lots { get; set; }
         public DbSet<LotOwner> LotOwners { get; set; }
         public DbSet<LotPurchase> LotPurchases { get; set; }
 
-        public namespace CemetaryManager.App.DbContext(DbContextOptions<namespace CemetaryManager.App.DbContext> options) : base(options)
+        public namespace CemeteryManager.App.DbContext(DbContextOptions<namespace CemeteryManager.App.DbContext> options) : base(options)
         {
 
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(namespace CemetaryManager.App.DbContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(namespace CemeteryManager.App.DbContext).Assembly);
             base.OnModelCreating(modelBuilder);
         }
 

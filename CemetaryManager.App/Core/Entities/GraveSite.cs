@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CemetaryManager.App.Core.Entities
+namespace CemeteryManager.App.Core.Entities
 {
     public class GraveSite
     {
