@@ -13,7 +13,7 @@ namespace CemeteryManager.App.Infrastructure.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<Lot> builder)
         {
-            builder.Property(x => x.LotId).HasMaxLength(25);
+            builder.Property(x => x.LotNumber).HasMaxLength(25);
             builder.Property(x => x.LotOrientation).HasMaxLength(25);
 
             builder.HasOne(x => x.LotOwner).WithMany().HasForeignKey(x => x.LotOwnerId);

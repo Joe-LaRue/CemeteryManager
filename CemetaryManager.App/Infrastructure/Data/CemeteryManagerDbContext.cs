@@ -17,8 +17,9 @@ namespace CemeteryManager.App.Infrastructure.Data
 
         public CemeteryManagerAppDbContext(DbContextOptions<CemeteryManagerAppDbContext> options) : base(options)
         {
-
+            Database.EnsureCreated();
         }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
